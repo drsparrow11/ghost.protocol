@@ -1,0 +1,25 @@
+# GHOST.PROTOCOL
+
+GHOST.PROTOCOL is a concept album and recovery archive by Sparrow x Echo.
+
+Naming convention:
+- Display/brand: GHOST.PROTOCOL
+- Body text: Ghost Protocol
+- Archive labels: GHOST PROTOCOL ARCHIVE
+
+Core premise:
+- The archive kept the record.
+- The people kept the reason.
+- The signal does not end here.
+
+Primary sections:
+- Why This Exists
+- Recovery Logs
+- Seraph Research Notes
+- Playlist
+- Recovered Fragments
+- Visual Archive
+- Final Transmission
+
+Canonical playlist:
+https://www.youtube.com/playlist?list=PL7NolO6GeT1Ct9RJmSJdHH-8osbngj3nD

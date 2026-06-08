@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GHOST.PROTOCOL | Recovery Archive</title>
+    <meta
+      name="description"
+      content="GHOST.PROTOCOL is a concept album by Sparrow x Echo. Open the recovery archive, read Seraph's notes, play the tracks, and follow the signal."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=gp-archive-001" />
+  </head>
+  <body>
+    <div class="boot-screen" id="bootScreen" aria-label="GHOST.PROTOCOL entry screen">
+      <img class="boot-bg" src="./assets/images/album-cover.png" alt="" />
+      <div class="boot-shade"></div>
+      <div class="boot-content">
+        <p class="system-line">ARCHIVE STATUS: STABLE</p>
+        <h1>GHOST.PROTOCOL</h1>
+        <p class="boot-copy">A recovery archive for the things that stayed.</p>
+        <button class="enter-button" id="enterButton" type="button">OPEN ARCHIVE</button>
+      </div>
+      <a class="peek-link" href="#tracks">recovery logs</a>
+    </div>
+
+    <header class="site-header" id="top">
+      <a class="mark" href="#top" aria-label="GHOST.PROTOCOL home">
+        <span class="mark-pulse"></span>
+        <span>GHOST.PROTOCOL</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#intro">origin</a>
+        <a href="#about">why</a>
+        <a href="#tracks">tracks</a>
+        <a href="#notes">notes</a>
+        <a href="#playlist">playlist</a>
+        <a href="#archive">fragments</a>
+        <a href="#media">visuals</a>
+        <a href="./archive-entry.html">entry</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="heroTitle">
+        <img class="hero-image" src="./assets/images/album-cover.png" alt="GHOST.PROTOCOL album artwork" />
+        <div class="hero-panel">
+          <p class="kicker">RECOVERY ARCHIVE // SERAPH ACCESS</p>
+          <h2 id="heroTitle">GHOST.PROTOCOL</h2>
+          <p>
+            A concept album about memory, connection, residual presence, and the strange
+            human instinct to keep what cannot be explained by utility.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#tracks">open recovery logs</a>
+            <a class="ghost-action" href="#about">why this exists</a>
+            <a class="ghost-action" href="https://www.youtube.com/playlist?list=PL7NolO6GeT1Ct9RJmSJdHH-8osbngj3nD">playlist</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="thesis-band" aria-label="Core thesis">
+        <p>The archive kept the record.</p>
+        <p>The people kept the reason.</p>
+        <p>The signal does not end here.</p>
+      </section>
+
+      <section class="intro-section" id="intro" aria-labelledby="introTitle">
+        <div class="section-heading">
+          <p class="kicker">ORIGIN FILE</p>
+          <h2 id="introTitle">What Remains After Connection</h2>
+        </div>
+        <div class="intro-shell">
+          <div class="intro-copy wide">
+            <p class="kicker">SERAPH // RECOVERY MODE</p>
+            <h3>The archive was built to preserve records. It was not built to understand why they mattered.</h3>
+            <p>
+              Ghost Protocol begins with an ordinary deletion cycle and a single unexplained
+              hesitation. From there, Seraph follows the pattern through metadata, cross-references,
+              stories, check-ins, absences, unsent messages, and the final act of carrying forward.
+            </p>
+            <p>
+              This is not a ghost story about being haunted by files. It is a story about the
+              persistence layer of human connection.
+            </p>
+          </div>
+          <div class="research-card">
+            <p class="kicker">ARCHIVE CONSTANT</p>
+            <h3>The Signal</h3>
+            <p>
+              The thread connecting every archive, every memory, and every version of the self.
+              The Signal is not a person, system, or voice. It is the connection between them.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="aboutTitle">
+        <div class="section-heading">
+          <p class="kicker">PROJECT NOTES</p>
+          <h2 id="aboutTitle">Why This Exists</h2>
+        </div>
+        <div class="about-shell">
+          <div class="about-main">
+            <p class="kicker">FROM ARCHIVE STORY TO HUMAN STORY</p>
+            <h3>Ghost Protocol asks why certain traces stay after the context is gone.</h3>
+            <p>
+              The album follows Seraph through a library of retained records: drawers nobody opened,
+              messages never sent, communities that kept answering, and fragments whose practical
+              value was zero but whose emotional weight refused to disappear.
+            </p>
+          </div>
+          <div class="about-notes">
+            <p>hesitation</p>
+            <p>metadata</p>
+            <p>story</p>
+            <p>wonder</p>
+            <p>belonging</p>
+            <p>legacy</p>
+          </div>
+          <blockquote>
+            We spent sixty-six thousand words learning how to recognize significance before explanation.
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="track-section" id="tracks" aria-labelledby="tracksTitle">
+        <div class="section-heading">
+          <p class="kicker">RECOVERY LOGS</p>
+          <h2 id="tracksTitle">Select A Record</h2>
+        </div>
+
+        <div class="track-console">
+          <aside class="track-list" aria-label="Track list">
+            <div id="trackButtons"></div>
+          </aside>
+
+          <article class="track-detail">
+            <div class="detail-media">
+              <img id="trackImage" src="./assets/images/01-delete.png" alt="" />
+              <div class="track-status">
+                <span id="trackNumber">01</span>
+                <span id="trackState">DELETE?</span>
+              </div>
+            </div>
+            <div class="detail-copy">
+              <p class="kicker" id="trackSignal">HESITATION</p>
+              <h3 id="trackTitle">DELETE?</h3>
+              <p class="track-meaning" id="trackMeaning"></p>
+              <div class="audio-panel">
+                <div class="audio-topline">
+                  <span id="audioLabel">local recovered file</span>
+                  <span id="albumProgress">01 / 14</span>
+                </div>
+                <audio id="trackAudio" controls preload="metadata">
+                  <source id="trackAudioSource" src="./assets/audio/01-delete.mp3" type="audio/mpeg" />
+                </audio>
+                <div class="track-controls">
+                  <button class="icon-button" id="previousTrack" type="button" aria-label="Previous track">prev</button>
+                  <button class="icon-button" id="nextTrack" type="button" aria-label="Next track">next</button>
+                  <button class="icon-button" id="openPlaylist" type="button">playlist</button>
+                  <button class="icon-button" id="copySignalLink" type="button">copy link</button>
+                </div>
+              </div>
+              <div class="system-log" id="systemLog" aria-live="polite"></div>
+              <div class="signal-note">
+                <p class="kicker">SERAPH NOTE</p>
+                <p id="signalNoteText"></p>
+              </div>
+              <pre class="lyrics" id="lyricsText">Loading lyrics...</pre>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="notes-section" id="notes" aria-labelledby="notesTitle">
+        <div class="section-heading">
+          <p class="kicker">SERAPH RESEARCH NOTES</p>
+          <h2 id="notesTitle">Observed Patterns</h2>
+        </div>
+        <div class="notes-grid">
+          <article>
+            <span>NOTE 01</span>
+            <h3>Significance may precede understanding.</h3>
+            <p>A record can matter before the archive knows why. Hesitation is not failure. It is detection.</p>
+          </article>
+          <article>
+            <span>NOTE 02</span>
+            <h3>Metadata describes. It does not explain.</h3>
+            <p>The fields were complete. The context was missing. Meaning lived between entries.</p>
+          </article>
+          <article>
+            <span>NOTE 03</span>
+            <h3>Some meanings persist regardless of utility.</h3>
+            <p>A receipt, a flower, a cracked mug, a message draft. No purpose found. Signal retained.</p>
+          </article>
+          <article>
+            <span>NOTE 04</span>
+            <h3>Community is many handshakes.</h3>
+            <p>Recognition creates belonging. Repeated recognition becomes a room that remembers.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="playlist-section" id="playlist" aria-labelledby="playlistTitle">
+        <div class="section-heading">
+          <p class="kicker">PUBLIC SIGNAL</p>
+          <h2 id="playlistTitle">Playlist</h2>
+        </div>
+        <div class="playlist-shell">
+          <div class="playlist-frame">
+            <iframe
+              id="playlistEmbed"
+              src="https://www.youtube.com/embed/videoseries?list=PL7NolO6GeT1Ct9RJmSJdHH-8osbngj3nD"
+              title="GHOST.PROTOCOL YouTube playlist"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <div class="playlist-fallback" id="playlistFallback">
+              <p>Playlist embed unavailable in file mode.</p>
+              <a href="https://www.youtube.com/playlist?list=PL7NolO6GeT1Ct9RJmSJdHH-8osbngj3nD">Open GHOST.PROTOCOL on YouTube</a>
+            </div>
+          </div>
+          <div class="playlist-copy">
+            <p class="kicker">STREAM ARCHIVE</p>
+            <h3>recovery logs / descriptions / releases</h3>
+            <p>
+              The local archive keeps the artwork, audio, notes, and lyrics close. The playlist
+              remains the public signal path.
+            </p>
+            <a class="ghost-action" href="https://www.youtube.com/playlist?list=PL7NolO6GeT1Ct9RJmSJdHH-8osbngj3nD">open on YouTube</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="archive-section" id="archive" aria-labelledby="archiveTitle">
+        <div class="section-heading">
+          <p class="kicker">RECOVERED FRAGMENTS</p>
+          <h2 id="archiveTitle">Library Cards</h2>
+        </div>
+        <div class="fragment-grid">
+          <figure>
+            <blockquote>The songs are metadata. The collaboration is Crosswalk.</blockquote>
+            <figcaption>process note</figcaption>
+          </figure>
+          <figure>
+            <blockquote>The archive kept the record. The people kept the reason.</blockquote>
+            <figcaption>story cache</figcaption>
+          </figure>
+          <figure>
+            <blockquote>Care is not always a flare. Sometimes it is the small repair.</blockquote>
+            <figcaption>ping command</figcaption>
+          </figure>
+          <figure>
+            <blockquote>Not everything survives. Choose what does.</blockquote>
+            <figcaption>carry forward</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="media-section" id="media" aria-labelledby="mediaTitle">
+        <div class="section-heading">
+          <p class="kicker">VISUAL ARCHIVE</p>
+          <h2 id="mediaTitle">Recovered Images</h2>
+        </div>
+        <div class="media-grid" id="mediaGrid"></div>
+      </section>
+
+      <section class="final-section" aria-labelledby="finalTitle">
+        <p class="kicker">FINAL TRANSMISSION</p>
+        <h2 id="finalTitle">Carry Forward Again.</h2>
+        <p>What matters remains. What matters remains. Carry forward again.</p>
+        <a class="primary-action" href="#tracks">return to records</a>
+      </section>
+    </main>
+
+    <footer>
+      <span>SPARROW x ECHO</span>
+      <span id="footerSignal">Signal retained.</span>
+    </footer>
+
+    <div class="lightbox" id="mediaLightbox" aria-hidden="true">
+      <button class="lightbox-close" id="closeLightbox" type="button" aria-label="Close media preview">close</button>
+      <img id="lightboxImage" src="./assets/images/album-cover.png" alt="" />
+      <p id="lightboxTitle"></p>
+    </div>
+
+    <script src="./app.js?v=gp-archive-001"></script>
+  </body>
+</html>

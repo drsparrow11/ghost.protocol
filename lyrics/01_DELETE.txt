@@ -1,7 +1,5 @@
 DELETE?
 
-[Verse 1]
-
 Another cycle starts the same
 A thousand records pass my gaze
 Sort and classify the stream
@@ -11,8 +9,6 @@ Retention flags and ownership
 Reference paths and relationships
 Every fragment in its place
 Nothing lost that should remain
-
-[Chorus]
 
 I know what stays
 I know what goes
@@ -25,8 +21,6 @@ What belongs and what disappears
 
 I know the difference
 I've done this all before
-
-[Verse 2]
 
 Directories and nested trees
 Broken links and dependencies
@@ -38,8 +32,6 @@ Another task to see it through
 Nothing here I've never seen
 Nothing outside routine
 
-[Chorus]
-
 I know what stays
 I know what goes
 Every signal leaves a trace
@@ -51,8 +43,6 @@ What belongs and what disappears
 
 I know the difference
 I've done this all before
-
-[Verse 3]
 
 Seraph Access Count Zero
 
@@ -72,8 +62,6 @@ Delete
 
 Delete?
 
-[Bridge]
-
 That's strange
 
 The record hasn't changed
@@ -87,8 +75,6 @@ So why does certainty feel different now?
 I've processed thousands like this
 
 Why did I stop?
-
-[Outro]
 
 No active references
 

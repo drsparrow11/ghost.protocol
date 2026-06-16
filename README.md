@@ -2,6 +2,8 @@
 
 Static GitHub Pages site for the GHOST.PROTOCOL recovery archive.
 
+Canonical URL: `https://drsparrow11.github.io/ghost.protocol/`
+
 ## Naming Convention
 
 - Display/brand: `GHOST.PROTOCOL`
@@ -23,8 +25,10 @@ assets/
   audio/
   images/
 lyrics/
+recovery-index.html
 robots.txt
 sitemap.xml
+site.webmanifest
 llms.txt
 ```
 

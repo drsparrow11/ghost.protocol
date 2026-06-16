@@ -1,0 +1,17 @@
+{
+  "name": "GHOST.PROTOCOL",
+  "short_name": "GHOST.PROTOCOL",
+  "description": "A recovery archive concept album by Sparrow x Echo.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#05080a",
+  "theme_color": "#05080a",
+  "icons": [
+    {
+      "src": "./assets/images/album-cover.png",
+      "sizes": "1024x1536",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
